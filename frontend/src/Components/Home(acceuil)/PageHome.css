@@ -1,0 +1,117 @@
+
+/*body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 1.7;
+	color: #000000;
+	background-color: #fafafa;
+	//overflow: hidden;
+  //background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 4%;
+  //height: 100vh;
+  width: 100%;}*/
+  
+.section-center{
+  position: absolute;
+  top: 60%;
+  left: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: 6;
+  text-align: center;
+  transform: translateY(-50%);
+  
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 7vw;
+  line-height: 1;
+  color: #ffeba7;
+  text-align: center;
+  -webkit-text-stroke: 2px #ffeba7;
+  text-stroke: 2px #ffeba7;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  color: transparent;
+}
+
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked){
+  position: absolute;
+  left: -9999px;
+}
+
+.logo {
+	position: absolute;
+	top: 90px;
+	left: 50px;
+	display: block;
+	z-index: 11;
+    width: 130px;
+	transition: all 250ms linear;
+  border-radius: 5em;
+}
+.logo img {
+	height: 26px;
+	width: auto;
+	display: block;
+}
+
+
+
+@media screen and (max-width: 991px) {
+  
+  .logo {
+    left: 30px;
+  }
+ 
+  h1{
+    font-size: 9vw;
+    -webkit-text-stroke: 2px transparent;
+    text-stroke: 2px transparent;
+    -webkit-text-fill-color: #ffeba7;
+    text-fill-color: #ffeba7;
+    color: #ffeba7;
+  }
+  
+}
+
+.descriptions{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    grid-area: text;
+    color: #399ac7 ;
+    margin: 30px;
+    text-align: center;
+    font-size: 1.5rem!important;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding-top: 30px;
+    line-height: 1.7;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: -20px;
+  padding-top: 90px;
+  padding-left: 60px;
+  padding-right: 60px;
+
+}
+.pict{
+  flex: 0 0 50.33333%;
+  max-width: 50.33333%;
+
+}
+.pict img {
+  width: 400px;
+ 
+}

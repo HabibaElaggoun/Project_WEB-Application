@@ -1,0 +1,29 @@
+.adAc{
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 600px;
+  right: 300px;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px 6px rgba(226, 68, 218, 0.25);
+  transition: all 0.2s;
+} 
+.adAc:hover{
+  background-color: rgb(247, 139, 238);
+}
+.desc{
+  color:black;
+  margin: 20px ;
+  padding-top: 40px;
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
+   
+}
+.cimg img{
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  right: 30px;
+
+}
+
